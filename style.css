@@ -42,8 +42,8 @@ h1, .icon {
 }
 
 .col-sedans {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     background-color: hsl(31, 77%, 52%);
 }
 
@@ -53,8 +53,8 @@ h1, .icon {
 
 .col-luxury {
     background-color: hsl(179, 100%, 13%);
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .col-sedans,
@@ -121,12 +121,12 @@ h1, .icon {
         flex-direction: column;
     }
     .col-sedans {
-        border-top-right-radius: 20px;
+        border-top-right-radius: 10px;
         border-bottom-left-radius: 0;
     }
 
     .col-luxury {
         border-top-right-radius: 0;
-        border-bottom-left-radius: 20px;
+        border-bottom-left-radius: 10px;
     }
 }
